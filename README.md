@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+##Deployment
+Extract the archive and put it in the folder you want
+Run <b>cp .env.example .env</b> file to copy example file to .env
+Then edit your .env file with DB credentials and other settings.
+Run <b>composer install<b/> command
+Run <b>php artisan migrate --seed</b> command.
+Notice: seed is important, because it will create the first admin user for you.
+Run <b>php artisan key:generate</b> command.
+If you have file/photo fields, run <b>php artisan storage:link</b> command.
+And that's it, go to your domain and login:
+
+Default credentials
+Username: admin@admin.com
+Password: password
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
