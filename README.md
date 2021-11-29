@@ -8,19 +8,19 @@
 </p>
 
 ##Deployment
-Extract the archive and put it in the folder you want
-Run <b>cp .env.example .env</b> file to copy example file to .env
-Then edit your .env file with DB credentials and other settings.
-Run <b>composer install<b/> command
-Run <b>php artisan migrate --seed</b> command.
-Notice: seed is important, because it will create the first admin user for you.
-Run <b>php artisan key:generate</b> command.
-If you have file/photo fields, run <b>php artisan storage:link</b> command.
-And that's it, go to your domain and login:
-
-Default credentials
-Username: admin@admin.com
-Password: password
+<p>Extract the archive and put it in the folder you want</p>
+<p>Run <b>cp .env.example .env</b> file to copy example file to .env</p>
+<p>Then edit your .env file with DB credentials and other settings.</p>
+<p>Run <b>composer install<b/> command</p>
+<p>Run <b>php artisan migrate --seed</b> command.</p>
+<p>Notice: seed is important, because it will create the first admin user for you.</p>
+<p>Run <b>php artisan key:generate</b> command.</p>
+<p>If you have file/photo fields, run <b>php artisan storage:link</b> command.</p>
+<p>And that's it, go to your domain and login:</p>
+<br>
+<p>Default credentials</p>
+<p>Username: admin@admin.com</p>
+<p>Password: password</p>
 
 ## About Laravel
 
