@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-##Deployment
+## Deployment
 <p>Extract the archive and put it in the folder you want</p>
 <p>Run <b>cp .env.example .env</b> file to copy example file to .env</p>
 <p>Then edit your .env file with DB credentials and other settings.</p>
